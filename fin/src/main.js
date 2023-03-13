@@ -11,6 +11,7 @@ import LoadScript from 'vue-plugin-load-script';
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 Vue.use(LoadScript)
+Vue.use(router)
 new Vue({
   router,
   render: (h) => h(App)
